@@ -9,16 +9,16 @@ function submitFullName(){
     date = new Date(date);
 
     if (gender === 'male'){
-        alert(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your name is " + maleNames[date.getDay()]);
+        return(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your name is " + maleNames[date.getDay()]);
         document.getElementById('result').innerHTML = maleNames[date.getDay()]
     
     }
     else if (gender === 'female'){
-        alert(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your name is " + femaleNames[date.getDay()]);
+        return(" Since you were born on " + daysOfWeek[date.getDay()] + ',' + " your name is " + femaleNames[date.getDay()]);
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
     }
     else{
-        alert("Error: Input your gender or correct date");''
+        return("Error: Input your gender or correct date");''
     }
 
   
