@@ -27,14 +27,44 @@
 	  Frequently in Ghana, children are given their first name as a 
 	  'day name' which corresponds to the day in the week they were born. 
 	  Here are Ghanian day names.
+	</p>
+	 <!-- form start of -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h2 class="name">User Details</h2>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="text-white" for="year">Date:</label>
+                                    <input type="date" name="date" class="form-control date-custom" placeholder="Enter Year of Date" id="date" required>
+                                </div>
+                                <label class="text-white" for="gender">Gender:</label>
+                                <select class="form-control mb-2 select-custom" id="genders">
+                                    <option class="option-custom" value="other">Choose Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <button type="submit" class="btn btn-warning" onclick="submitFullNames()">Submit</button>
+                            </form>
+                           <!-- form section -->
 
-        </p>
-	  <a <button>Click To check</button> >
-
+                        </div>
+                        <div class="card-footer">
+                            <p>Your Akan Name is: <span class="text-danger" id="result"></span></p>
+                        </div>
+                    </div>
+                    <!-- card end-->
+                </div>
+                <!-- Col-form end-->
+            </div>
+        </div>
       </div>
-    </div>
-  </div>
+      <!-- cont-background end -->
+        
+    <script src="index.js"></script>
 
-	
+<script src="main.js"></script>	
 </body>
 </html>
