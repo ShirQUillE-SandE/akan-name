@@ -1,6 +1,7 @@
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
+    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    
 
 function submitFullName(){
     event.preventDefault();
@@ -18,7 +19,7 @@ function submitFullName(){
         document.getElementById('result').innerHTML = femaleNames[date.getDay()];
     }
     else{
-        alert("Error: Input your gender or correct date");''
+        alert("Error: Please Input your gender or correct date of birth");''
     }
 
 }
