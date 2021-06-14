@@ -1,11 +1,11 @@
-## Project name
+### Project name:
     - Akan Names
 ​
-## Project description
+## Project description:
     - Generate Akan names from Ghana
   
 ​
-## Author(s) information
+## Author(s) information:
     - Shirquille Sande
   
 ## Setup instructions
