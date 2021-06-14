@@ -16,7 +16,7 @@ body {
   font-size: 65px;
   color: white;
 }
-
+      
 #wrapper {
   width: 640px;
   margin: 0 auto;
@@ -36,21 +36,21 @@ body {
   color: black;
   border: 10px solid silver;
 }
-
+         
 #content {
   padding: 100px 30px;
 }
-
+      
 .col-md-6 {
   margin-left: 200px;
 }
-
+      
 .text-danger {
   color: black;
   font-size: 28px;
   animation-name: bounce;
 }
-
+    
 .result-text {
 
   color: black;
