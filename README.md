@@ -25,7 +25,7 @@
 ## Technologies used
     - HTML
     - CSS
-    - JS
+    - JS 
   
 ## Contact information
     - Email: shirquille.sande@student.moringaschool.com
