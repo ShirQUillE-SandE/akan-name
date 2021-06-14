@@ -29,6 +29,7 @@
   
 ## Contact information
     - Email: shirquille.sande@student.moringaschool.com
+    -github name: Shirquille Sande
   
 ## License and Copyright information
     Copyright 2021 Maroko Gideon
