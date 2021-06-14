@@ -21,5 +21,5 @@ function submitFullName(){
         alert("Error: Input your gender or correct date");''
     }
 
-  
 }
+
